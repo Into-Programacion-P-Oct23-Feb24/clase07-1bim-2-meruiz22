@@ -52,6 +52,7 @@ public class Ejemplo09 {
 
         // promedio = suma / contador_calificaciones;
         promedio = (double) suma / contador_calificaciones;
+        //Al ser suma y contador_calificaciones variables enteras estoy hacioendo un casting para transformar suma en una variable decimal 
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
                 promedio);
